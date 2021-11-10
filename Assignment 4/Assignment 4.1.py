@@ -20,9 +20,12 @@ def total_aprices(apple,applep):
 def total_oprices(orange,orangep):
     return orange*orangep
 
-def grand_total(total_aprices,total_oprices):
-    return total_aprices+total_oprices
+o_totala=total_aprices(apple,applep)
+o_totalo=total_oprices(orange,orangep)
+
+def grand_total(o_totala,o_totalo):
+    return o_totala+o_totalo
 
     
-print(f"The total amount is {grand_total(total_aprices, total_oprices)} pesos.")
+print(f"The total amount is {grand_total(o_totalo,o_totala)} pesos.")
 
