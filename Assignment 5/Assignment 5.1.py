@@ -10,8 +10,8 @@ elif agrade == "D":
         print("Grade/Mark: D")
         print("Description: Dropped")
 
-grade2=(float(input("Enter your grade:")))
-your_grade =math.ceil(grade2)
+your_grade=(float(input("Enter your grade:")))
+
 if your_grade>= 97 and your_grade<= 100:
           print("Grade/Mark:1.0")
           print("Description: Exellent")
